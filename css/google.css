@@ -1,0 +1,253 @@
+div {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+table {
+    border-collapse: collapse;
+}
+p {
+    margin: 0px;
+}
+
+.top-background {
+    width: auto;
+    height: 80px;
+    background-color: rgb(30, 30, 30);
+    position: relative;
+}
+.top-Info {
+    font-size: 15px;
+    text-align: center;
+    padding: 1px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    text-decoration-line: none;
+}
+.top-Info:hover {
+    text-decoration: underline;
+}
+
+.top-Info-left {
+    font-size: 15px;
+    text-align: center;
+    padding: 1px;
+    left: 150px;
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 130px;
+    text-decoration-line: none;
+}
+.top-Info-left:hover {
+    text-decoration: underline;
+}
+.top-Info-Gmail {
+    font-size: 15px;
+    text-align: center;
+    padding: 1px;
+    color: white;
+    position: absolute;
+    top: 25px;
+    right: 220px;
+    text-decoration: none;
+}
+.top-Info-Gmail:hover {
+    text-decoration: underline;
+}
+.top-Info-image {
+    font-size: 15px;
+    text-align: center;
+    padding: 1px;
+    color: white;
+    position: absolute;
+    top: 25px;
+    right: 165px;
+    text-decoration: none;
+}
+.top-Info-image:hover {
+    text-decoration: underline;
+}
+.top-Info-search-lab {
+    padding: 1px;
+    color: white;
+    position: absolute;
+    top: 25px;
+    right: 125px;
+}
+.top-Google-app {
+    padding: 1px;
+    position: absolute;
+    top: 15px;
+    right: 70px;
+}
+.top-profile {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* 여기서부터 main-background */
+
+.main-background {
+    width: auto;
+    height: 800px;
+    max-height: 730px;
+    background-color: rgb(30, 30, 30);
+    position: relative;
+}
+.logo {
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+.table {
+    width: auto;
+    height: 50px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 230px;
+    box-shadow: 1px 1px 10px black;
+}
+.table:hover{
+    background-color: rgb(85, 85, 85);
+}
+.table td:nth-child(1) {
+    text-align: center;
+    width: 40px;
+}
+.table td:nth-child(2) {
+    text-align: center;
+    width: 400px;
+}
+.table td:nth-child(3) {
+    width: 35px;
+}
+.table td:nth-child(4) {
+    width: 35px;
+}
+.table td:nth-child(5) {
+    width: 35px;
+}
+.table td:nth-child(6) {
+    width: 60px;
+}
+input[type=search] {
+    padding: 10px;
+    width: 400px;
+    border: 0px;
+    background-color: rgb(60 60 60);
+}
+.keyboard {
+    width: 17px;
+    margin-left: 10px;
+}
+.mic {
+    width: 12px;
+    margin-left: 10px;
+}
+.lens {
+    width: 17px;
+    margin-left: 5px;
+}
+.plus {
+    width: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.ai {
+    width: 75px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+/* 여기서부터 middle-Background */
+
+.main__background {
+    width: 300px;
+    height: 50px;
+    position: relative;
+    margin: auto;
+}
+
+.mid__background {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    /* left: ---px */
+}
+
+.Google-search {
+    padding: 8px;
+    width: 100px;
+    left: 25px;
+}
+
+.doodles {
+    padding: 10px;
+    width: 140px;
+    left: 135px;
+}
+.doodles:hover,.Google-search:hover {
+    border: 0.5px solid white;
+}
+/* 여기서부터 bottom-Background */
+
+.b__background {
+    width: auto;
+    position: relative;
+}
+.b-t {
+    height: 50px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    margin: 0px;
+}
+.b-t-language {
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    font-size: 15px;
+}
+.b-m {
+    height: 1q;
+    background-color: rgb(88, 88, 88);
+}
+.b-b{
+    height: 50px;
+    background-color: rgb(22, 22, 22);
+}
+.b__background--text {
+    position: absolute;
+    color: white;
+    bottom: 17px;
+    font-size: 12px;
+}
+.b__background--text:hover {
+    text-decoration: underline;
+}
+.b-ads {
+    left: 30px;
+}
+.b-business {
+    left: 80px;
+}
+.b-howsearchworks {
+    left: 160px;
+}
+.b-privacy {
+    right: 130px;
+}
+.b-term {
+    right: 75px;
+}
+.b-settings {
+    right: 20px;
+}
