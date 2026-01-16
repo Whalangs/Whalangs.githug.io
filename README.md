@@ -1,1 +1,1 @@
-# Whalangs.githug.io
+# Whalangs.github.io
